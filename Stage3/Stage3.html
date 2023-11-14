@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stage 3</title>
+    <link rel="stylesheet" href="./design.css">
+</head>
+<body>
+    <input id="return" type="submit" value="Return to Menu" onclick="switchPage()">
+    <header>
+        <h1 id="title">Mini Game Math</h1>
+        <h2 id="sub-title">Stage 3</h2>
+        <h3 id="desc">Everytime you press button, the numbers will refresh</h3>
+        <h3 id="desc">Find the most suitable number for the math</h3>
+    </header>
+    <label>Selection</label>
+    <form id="selection">
+        <button id="number1" type="button" maxlength="1" ></button>
+        <button id="number2" type="button" maxlength="1"></button>
+        <button id="number3" type="button" maxlength="1"></button>
+        <button id="number4" type="button" maxlength="1"></button>
+        <button id="number5" type="button" maxlength="1"></button>
+        <button id="number6" type="button" maxlength="1"></button>
+    </form>
+    <label>Operator</label>
+    <div id="operators1">
+        <button id="add" value="+">+</button>
+        <button id="subtract" value="-">-</button>
+        <button id="multiply" value="*">*</button>
+        <button id="divide" value="/">/</button>
+    </div>
+    <label>Output</label>
+    <form id="output">
+        <button id="inputNumber1" type="button" maxlength="1"></button>
+        <input type="button" id="math" value=""/>
+        <button id="inputNumber2" type="button" maxlength="1"></button>
+    </form>
+    <div id="ketQua">
+        <label>Result</label>
+        <div id="result"></div>
+    </div>
+    <button id="submit">Submit</button>
+    <button id="reset" type="reset">Reset</button>
+    <div id="success" style="display: none">
+        <input type="button" value="Prev Stage" onclick="switchStagePrev()" id="prev">
+    </div>
+    <script src="./main.js" type="module"></script>
+    <script>
+        function switchPage(){
+            window.location.href = "/startingPage.html";
+        }
+        function switchStagePrev(){
+            window.location.href = "/Stage2/Stage2.html";
+        }
+    </script>
+    
+</body>
+</html>

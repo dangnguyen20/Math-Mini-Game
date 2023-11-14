@@ -1,0 +1,156 @@
+body {
+    align-items: center;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("board.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    min-height: 100vh;
+}
+
+
+h1 {
+    font-size: 50px;
+}
+
+button:empty {
+    padding: 15px 25px;
+    margin: 15px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    color: black;
+    background-color: #fff;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 6px 0 6px #999;
+    width: 40px;
+    height: 50px;
+}
+
+button {
+    padding: 15px 25px;
+    margin: 10px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    color: black;
+    background-color: #fff;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 6px 0 6px #999;
+}
+
+button:hover {
+    background-color: #f1f1f1
+}
+
+button:active {
+    background-color: #f1f1f1;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+input {
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #04AA6D;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 6px 0 6px #999;
+    margin-bottom: -15px;
+
+}
+
+input:hover {
+    background-color: #3e8e41
+}
+
+input:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+#output {
+    margin-top: 10px;
+}
+
+#submit {
+    margin-right: 10px;
+}
+
+#reset {
+    margin-left: 10px;
+}
+
+#next {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 15px;
+    margin-left: 10px;
+    padding: 15px 15px
+}
+
+#prev {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    display: block;
+    justify-content: flex-start;
+    margin-top: 15px;
+    margin-left: 10px;
+    padding: 15px 15px
+}
+
+#ketQua {
+    margin-top: 20px;
+}
+
+label {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+#return {
+    position: absolute;
+    bottom: 35px;
+    left: 25px;
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px 15px;
+    background-color: #fff;
+    color: black;
+    border: none;
+}
+
+#title {
+    margin-top: 40px;
+    margin-bottom: 0;
+    color: #fff;
+}
+
+#result {
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+
+#sub-title {
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+}
